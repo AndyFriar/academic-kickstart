@@ -9,17 +9,17 @@ authors = ["admin"]
 superuser = true
 
 # Role/position
-role = "Technical Consultant"
+role = "Senior Technical Consultant"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [ { name = "Novus Group Ltd", url = "https://www.novus.co.uk" } ]
+organizations = [ { name = "Novus Group Ltd", url = "https://www.novus.co.uk/" } ]
 
 # Short bio (displayed in user profile at end of posts)
-bio = ""
+bio = "Passion for Opensource solutions to modern day problems"
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email = "andy@andyfriar.com"
+email = ""
 
 # List (academic) interests or hobbies
 interests = [
@@ -27,7 +27,7 @@ interests = [
   "Aruba Procurve",
   "Office 365",
   "SIEM",
-  "Opensource Solutions"
+  "Opensource solutions"
 ]
 
 # Organizational groups that you belong to (for People widget)
@@ -52,19 +52,24 @@ user_groups = ["Researchers", "Visitors"]
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 
 [[social]]
-  icon = "envelope"
-  icon_pack = "fas"
-  link = "#contact"  # For a direct email link, use "mailto:test@example.org".
-
-[[social]]
   icon = "twitter"
   icon_pack = "fab"
   link = "https://twitter.com/Andy_Friar"
 
 [[social]]
+  icon = "linkedin"
+  icon_pack = "fab"
+  link = "https://linkedin.com/in/andyfriar"
+
+[[social]]
   icon = "github"
   icon_pack = "fab"
   link = "https://github.com/andyfriar"
+
+[[social]]
+  icon = "envelope"
+  icon_pack = "fas"
+  link = "#contact"  # For a direct email link, use "mailto:test@example.org".
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
@@ -75,8 +80,8 @@ user_groups = ["Researchers", "Visitors"]
 
 +++
 
-Andy Friar is a commercially aware, security concious IT professional. Initially starting his career with Citrix technologies doing large deployments of SBC before moving on to virtualisation, networking and Office 365.
+Andy Friar is a commercially aware, security concious IT professional. Initially starting his career using Citrix technologies doing large deployments of SBC before moving on to virtualisation, networking and Office 365.
 
 More recent work includes leading the change for Hyper Converged Infrastructure (HCI) in paticular Storage Spaces Direct #S2D and multiple 1000+ user Office 365 migrations.
 
-Keen interest in Opensource solutions which allow companies to deliver real term CapEx and OpEx benefits.
+A keen interest in Opensource solutions which allow companies to deliver real term CapEx and OpEx benefits.
